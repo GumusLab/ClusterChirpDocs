@@ -1,50 +1,30 @@
 ---
 sidebar_position: 1
+slug: /intro
 ---
 
-# Tutorial Intro
+# Welcome to ClusterChirp Docs!
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the official documentation for **ClusterChirp**.  
+Here you'll find tutorials and guides to help you get started and master the platform.
 
-## Getting Started
+## Tutorials
 
-Get started by **creating a new site**.
+Start learning with our step-by-step tutorials:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- [Tutorial 1: Getting Started](docs/tutorials/tutorial1.md)
 
-### What you'll need
+<!--
+- [Tutorial 2: Data Import](tutorial2)
+- [Tutorial 3: Analysis Workflow](tutorial3)
+- [Tutorial 4: Visualization Techniques](tutorial4)
+- [Tutorial 5: Advanced Tips & Tricks](tutorial5)
+-->
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Feel free to explore the tutorials in order, or jump to any topic you're interested in.
 
-![fooooo](gifs\find_cfd.gif) 
-![hahaha funny text](gifs/sort_by_males.gif)
+---
 
-## Generate a new site
+If you have questions, check out the community forums or reach out to the team!
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Happy clustering! 
