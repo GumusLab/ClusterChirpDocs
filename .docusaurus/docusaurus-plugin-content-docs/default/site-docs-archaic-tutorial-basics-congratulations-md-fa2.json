@@ -1,0 +1,17 @@
+{
+  "id": "archaic/tutorial-basics/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/archaic/tutorial-basics/congratulations.md",
+  "sourceDirName": "archaic/tutorial-basics",
+  "slug": "/archaic/tutorial-basics/congratulations",
+  "permalink": "/ClusterChirpDocs/archaic/tutorial-basics/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  }
+}

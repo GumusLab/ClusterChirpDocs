@@ -1,0 +1,23 @@
+{
+  "id": "tutorials/analyze-pathways",
+  "title": "Analyzing Pathways",
+  "description": "Overview",
+  "source": "@site/docs/tutorials/analyzing-clusters.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/analyze-pathways",
+  "permalink": "/ClusterChirpDocs/docs/tutorials/analyze-pathways",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorials/analyzing-clusters.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "analyze-pathways",
+    "title": "Analyzing Pathways"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/ClusterChirpDocs/docs/tutorial-extras/translate-your-site"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "tutorials/view-gene-network",
+  "title": "Viewing the Gene Network",
+  "description": "If you haven't yet learned how to cluster axes, see here.",
+  "source": "@site/docs/tutorials/view-gene-network.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/view-gene-network",
+  "permalink": "/ClusterChirpDocs/tutorials/view-gene-network",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "view-gene-network",
+    "title": "Viewing the Gene Network",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Analyzing Pathways",
+    "permalink": "/ClusterChirpDocs/tutorials/analyze-pathways"
+  },
+  "next": {
+    "title": "Chat With AI",
+    "permalink": "/ClusterChirpDocs/tutorials/chat-with-ai"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/ClusterChirpDocs/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/ClusterChirpDocs/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "basic-functions",
+              "path": "/ClusterChirpDocs/basic-functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "FAQ",
+              "path": "/ClusterChirpDocs/FAQ",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/ClusterChirpDocs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/analyze-pathways",
+              "path": "/ClusterChirpDocs/tutorials/analyze-pathways",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/chat-with-ai",
+              "path": "/ClusterChirpDocs/tutorials/chat-with-ai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/view-gene-network",
+              "path": "/ClusterChirpDocs/tutorials/view-gene-network",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/ClusterChirpDocs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "archaic/tutorial-basics/deploy-your-site",
+  "title": "Deploy your site",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/docs/archaic/tutorial-basics/deploy-your-site.md",
+  "sourceDirName": "archaic/tutorial-basics",
+  "slug": "/archaic/tutorial-basics/deploy-your-site",
+  "permalink": "/ClusterChirpDocs/archaic/tutorial-basics/deploy-your-site",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  }
+}
