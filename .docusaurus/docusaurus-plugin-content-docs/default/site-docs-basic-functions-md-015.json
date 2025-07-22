@@ -1,0 +1,23 @@
+{
+  "id": "basic-functions",
+  "title": "Basic Functions",
+  "description": "Reordering Rows and Columns",
+  "source": "@site/docs/basic-functions.md",
+  "sourceDirName": ".",
+  "slug": "/basic-functions",
+  "permalink": "/ClusterChirpDocs/basic-functions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/ClusterChirpDocs/FAQ"
+  },
+  "next": {
+    "title": "Analyzing Pathways",
+    "permalink": "/ClusterChirpDocs/tutorials/analyze-pathways"
+  }
+}

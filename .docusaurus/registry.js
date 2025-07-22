@@ -1,0 +1,18 @@
+export default {
+  "0152188f": [() => import(/* webpackChunkName: "0152188f" */ "@site/docs/basic-functions.md"), "@site/docs/basic-functions.md", require.resolveWeak("@site/docs/basic-functions.md")],
+  "0e384e19": [() => import(/* webpackChunkName: "0e384e19" */ "@site/docs/intro.md"), "@site/docs/intro.md", require.resolveWeak("@site/docs/intro.md")],
+  "17896441": [() => import(/* webpackChunkName: "17896441" */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
+  "1f391b9e": [() => import(/* webpackChunkName: "1f391b9e" */ "@theme/MDXPage"), "@theme/MDXPage", require.resolveWeak("@theme/MDXPage")],
+  "393be207": [() => import(/* webpackChunkName: "393be207" */ "@site/src/pages/markdown-page.md"), "@site/src/pages/markdown-page.md", require.resolveWeak("@site/src/pages/markdown-page.md")],
+  "5e95c892": [() => import(/* webpackChunkName: "5e95c892" */ "@theme/DocsRoot"), "@theme/DocsRoot", require.resolveWeak("@theme/DocsRoot")],
+  "5e9f5e1a": [() => import(/* webpackChunkName: "5e9f5e1a" */ "@generated/docusaurus.config"), "@generated/docusaurus.config", require.resolveWeak("@generated/docusaurus.config")],
+  "6401538e": [() => import(/* webpackChunkName: "6401538e" */ "@site/docs/tutorials/analyze-pathways.md"), "@site/docs/tutorials/analyze-pathways.md", require.resolveWeak("@site/docs/tutorials/analyze-pathways.md")],
+  "7da96b28": [() => import(/* webpackChunkName: "7da96b28" */ "@site/docs/tutorials/view-gene-network.md"), "@site/docs/tutorials/view-gene-network.md", require.resolveWeak("@site/docs/tutorials/view-gene-network.md")],
+  "93cbdd0a": [() => import(/* webpackChunkName: "93cbdd0a" */ "@generated/docusaurus-plugin-content-docs/default/p/cluster-chirp-docs-95d.json"), "@generated/docusaurus-plugin-content-docs/default/p/cluster-chirp-docs-95d.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/cluster-chirp-docs-95d.json")],
+  "a7456010": [() => import(/* webpackChunkName: "a7456010" */ "@generated/docusaurus-plugin-content-pages/default/__plugin.json"), "@generated/docusaurus-plugin-content-pages/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-pages/default/__plugin.json")],
+  "a7bd4aaa": [() => import(/* webpackChunkName: "a7bd4aaa" */ "@theme/DocVersionRoot"), "@theme/DocVersionRoot", require.resolveWeak("@theme/DocVersionRoot")],
+  "a94703ab": [() => import(/* webpackChunkName: "a94703ab" */ "@theme/DocRoot"), "@theme/DocRoot", require.resolveWeak("@theme/DocRoot")],
+  "aba21aa0": [() => import(/* webpackChunkName: "aba21aa0" */ "@generated/docusaurus-plugin-content-docs/default/__plugin.json"), "@generated/docusaurus-plugin-content-docs/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/__plugin.json")],
+  "ad895e75": [() => import(/* webpackChunkName: "ad895e75" */ "@site/docs/FAQ.md"), "@site/docs/FAQ.md", require.resolveWeak("@site/docs/FAQ.md")],
+  "b71d6c2d": [() => import(/* webpackChunkName: "b71d6c2d" */ "@site/docs/tutorials/chat-with-ai.md"), "@site/docs/tutorials/chat-with-ai.md", require.resolveWeak("@site/docs/tutorials/chat-with-ai.md")],
+  "c4f5d8e4": [() => import(/* webpackChunkName: "c4f5d8e4" */ "@site/src/pages/index.js"), "@site/src/pages/index.js", require.resolveWeak("@site/src/pages/index.js")],};

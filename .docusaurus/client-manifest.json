@@ -1,0 +1,279 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "650": [
+      61,
+      401,
+      869,
+      650
+    ],
+    "17896441": [
+      650,
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "0152188f": [
+      658
+    ],
+    "0e384e19": [
+      976
+    ],
+    "1f391b9e": [
+      650,
+      869,
+      61
+    ],
+    "393be207": [
+      134
+    ],
+    "5e95c892": [
+      647
+    ],
+    "6401538e": [
+      573
+    ],
+    "7da96b28": [
+      90
+    ],
+    "93cbdd0a": [
+      137
+    ],
+    "a7456010": [
+      235
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "ad895e75": [
+      315
+    ],
+    "b71d6c2d": [
+      678
+    ],
+    "c4f5d8e4": [
+      634
+    ],
+    "styles": [
+      48,
+      61,
+      354,
+      401,
+      650,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.19806666.js",
+          "hash": "394fb6bc0549d3e4",
+          "publicPath": "/ClusterChirpDocs/assets/js/a94703ab.19806666.js"
+        }
+      ]
+    },
+    "61": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.2bf406c4.js",
+          "hash": "6d0d516b0c6f3849",
+          "publicPath": "/ClusterChirpDocs/assets/js/1f391b9e.2bf406c4.js"
+        }
+      ]
+    },
+    "90": {
+      "js": [
+        {
+          "file": "assets/js/7da96b28.bb21fc8e.js",
+          "hash": "1b4f179b29d07521",
+          "publicPath": "/ClusterChirpDocs/assets/js/7da96b28.bb21fc8e.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.4fb1cab3.js",
+          "hash": "f9a4ebb232159a5b",
+          "publicPath": "/ClusterChirpDocs/assets/js/a7bd4aaa.4fb1cab3.js"
+        }
+      ]
+    },
+    "134": {
+      "js": [
+        {
+          "file": "assets/js/393be207.ac6390ea.js",
+          "hash": "9697ca0d19431293",
+          "publicPath": "/ClusterChirpDocs/assets/js/393be207.ac6390ea.js"
+        }
+      ]
+    },
+    "137": {
+      "js": [
+        {
+          "file": "assets/js/93cbdd0a.78326299.js",
+          "hash": "4c29ab316681d66e",
+          "publicPath": "/ClusterChirpDocs/assets/js/93cbdd0a.78326299.js"
+        }
+      ]
+    },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.778caa4e.js",
+          "hash": "8011aa50b6d8acbd",
+          "publicPath": "/ClusterChirpDocs/assets/js/a7456010.778caa4e.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.99b88b15.js",
+          "hash": "baa1f0d732613294",
+          "publicPath": "/ClusterChirpDocs/assets/js/237.99b88b15.js"
+        }
+      ]
+    },
+    "315": {
+      "js": [
+        {
+          "file": "assets/js/ad895e75.60570696.js",
+          "hash": "fe918de5948dcacd",
+          "publicPath": "/ClusterChirpDocs/assets/js/ad895e75.60570696.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.bc42f53e.js",
+          "hash": "cec2a0532c335a99",
+          "publicPath": "/ClusterChirpDocs/assets/js/runtime~main.bc42f53e.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.7c29c362.js",
+          "hash": "edb159b75bc16912",
+          "publicPath": "/ClusterChirpDocs/assets/js/17896441.7c29c362.js"
+        }
+      ]
+    },
+    "573": {
+      "js": [
+        {
+          "file": "assets/js/6401538e.9f3de891.js",
+          "hash": "5f4b95a0e8403466",
+          "publicPath": "/ClusterChirpDocs/assets/js/6401538e.9f3de891.js"
+        }
+      ]
+    },
+    "634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.670ae290.js",
+          "hash": "04858bc7d2cb1442",
+          "publicPath": "/ClusterChirpDocs/assets/js/c4f5d8e4.670ae290.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.9043a953.js",
+          "hash": "1ee900492a295281",
+          "publicPath": "/ClusterChirpDocs/assets/js/5e95c892.9043a953.js"
+        }
+      ]
+    },
+    "650": {
+      "js": [
+        {
+          "file": "assets/js/650.9f9233ca.js",
+          "hash": "32f11188c661c16c",
+          "publicPath": "/ClusterChirpDocs/assets/js/650.9f9233ca.js"
+        }
+      ]
+    },
+    "658": {
+      "js": [
+        {
+          "file": "assets/js/0152188f.7853b1be.js",
+          "hash": "fb42b23759a6c1d2",
+          "publicPath": "/ClusterChirpDocs/assets/js/0152188f.7853b1be.js"
+        }
+      ]
+    },
+    "678": {
+      "js": [
+        {
+          "file": "assets/js/b71d6c2d.4b1cd732.js",
+          "hash": "7858d4ab41352670",
+          "publicPath": "/ClusterChirpDocs/assets/js/b71d6c2d.4b1cd732.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.ec0a69ca.js",
+          "hash": "7e92dedf189ee1dc",
+          "publicPath": "/ClusterChirpDocs/assets/js/aba21aa0.ec0a69ca.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.94e64770.js",
+          "hash": "3e94dd5794e3f79a",
+          "publicPath": "/ClusterChirpDocs/assets/js/main.94e64770.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.946f0f5d.css",
+          "hash": "f147322fb12f1964",
+          "publicPath": "/ClusterChirpDocs/assets/css/styles.946f0f5d.css"
+        }
+      ]
+    },
+    "976": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.99f3866e.js",
+          "hash": "7174255549614a7f",
+          "publicPath": "/ClusterChirpDocs/assets/js/0e384e19.99f3866e.js"
+        }
+      ]
+    }
+  }
+}

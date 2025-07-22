@@ -1,0 +1,24 @@
+{
+  "id": "tutorials/chat-with-ai",
+  "title": "Chat With AI",
+  "description": "The Chat With AI box lets you interactively reorder and filter the heatmap using natural language commands, beyond what the usual buttons can do.",
+  "source": "@site/docs/tutorials/chat-with-ai.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/chat-with-ai",
+  "permalink": "/ClusterChirpDocs/tutorials/chat-with-ai",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "chat-with-ai",
+    "title": "Chat With AI",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Viewing the Gene Network",
+    "permalink": "/ClusterChirpDocs/tutorials/view-gene-network"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "tutorials/analyze-pathways",
+  "title": "Analyzing Pathways",
+  "description": "Overview",
+  "source": "@site/docs/tutorials/analyze-pathways.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/analyze-pathways",
+  "permalink": "/ClusterChirpDocs/tutorials/analyze-pathways",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "analyze-pathways",
+    "title": "Analyzing Pathways",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basic Functions",
+    "permalink": "/ClusterChirpDocs/basic-functions"
+  },
+  "next": {
+    "title": "Viewing the Gene Network",
+    "permalink": "/ClusterChirpDocs/tutorials/view-gene-network"
+  }
+}
