@@ -17,7 +17,7 @@ This tutorial walks you through how to **view the gene network** of a cluster. B
 ## Displaying the gene network
 After clicking on a cluster, the box that pops up will have a **"View Gene Network"** Button. Click the button to view the gene network.
 
-![view gene network button](/img/view-gene-network-button.gif)
+![view gene network button](/img/cluster-network-click.webp)
 
 ## Changing Dimensions
 To switch the dimensions of the gene network, click the "**Change to 2D/3D**" button.
@@ -26,7 +26,7 @@ To switch the dimensions of the gene network, click the "**Change to 2D/3D**" bu
 ## Finding Genes
 In the search box in the top left, type in a gene's name to find its location on the network. This feature works in both 2D and 3D.
 
-![searchbox-gene-network](/img/searchbox-gene-network.gif)
+![searchbox-gene-network](/img/cluster-network-search.webp)
 
 ## The Bottom Right Control Panel (2D)
 There is a control panel on the bottom right of the 2D graph:

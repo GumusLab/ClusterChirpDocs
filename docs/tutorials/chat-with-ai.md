@@ -30,7 +30,7 @@ Instead of manually adjusting settings, you can ask the AI to:
 - **Clustering** (As an alternative to clustering through the sidebar)
 - **Search** (As an alternative to searching through the search bar)
 - **Opacity** (As a way to change the opacity more specifically)
-![Chat with AI gif](/img/chat-with-ai.gif)
+![Chat with AI webp](/img/cluster-chat-sort.webp)
 
 
 ## Examples of Commands
