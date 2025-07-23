@@ -21,7 +21,7 @@ After clicking on a cluster, the box that pops up will have a **"View Gene Netwo
 
 ## Changing Dimensions
 To switch the dimensions of the gene network, click the "**Change to 2D/3D**" button.
-![2d to 3d button](/img/2dto3d.gif)
+![2d to 3d button](/img/cluster-2d-3d.webp)
 
 ## Finding Genes
 In the search box in the top left, type in a gene's name to find its location on the network. This feature works in both 2D and 3D.
