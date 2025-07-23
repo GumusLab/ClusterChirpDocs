@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknotes=self.webpackChunknotes||[]).push([[634],{192:(e,t,n)=>{n.r(t),n.d(t,{default:()=>u});n(6540);var s=n(6347),r=n(4848);function u(){return(0,r.jsx)(s.rd,{to:"./intro"})}}}]);
