@@ -31,9 +31,7 @@ The minimap is an important tool to see the entire heatmap, what is visible with
 ## Crop Mode
 Click the crop button on the sidebar to activate crop mode. In crop mode, you can isolate a specific portion of the heatmap to study by dragging your cursor over the region you want to cut.
 
-<strong style={{ fontSize: '18px', color: 'red' }}>
-  FIX THIS GIF PLS WHEN CROP MODE IS FIXED:
-</strong>
+
 ![crop-gif](/img/cluster-crop-func.webp)
 
 ## Download
