@@ -1,7 +1,7 @@
 ---
 id: view-correlation-network
 title: Viewing the Correlation Network
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 <strong style={{ fontSize: '18px', color: 'crimson' }}>

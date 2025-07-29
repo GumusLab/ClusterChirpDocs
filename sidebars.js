@@ -8,7 +8,6 @@ const sidebars = {
   tutorialSidebar: [
     'intro',
     'FAQ',
-    'basic-functions',
     {
       type: 'category',
       label: 'Tutorials',

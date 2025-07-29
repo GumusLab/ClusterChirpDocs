@@ -1,3 +1,11 @@
+---
+id: basic-functions
+title: Basic Functions
+hide_title: true
+sidebar_position: 3
+---
+
+
 # Basic Functions
 
 ## Uploading Data

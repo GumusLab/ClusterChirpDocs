@@ -1,7 +1,7 @@
 ---
 id: chat-with-ai
 title: Chat With AI
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 

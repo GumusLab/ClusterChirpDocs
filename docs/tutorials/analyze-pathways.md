@@ -2,7 +2,7 @@
 id: analyze-pathways
 title: Analyzing Pathways
 hide_title: true
-sidebar_position: 1
+sidebar_position: 2
 ---
 # Analyzing Pathways
 
