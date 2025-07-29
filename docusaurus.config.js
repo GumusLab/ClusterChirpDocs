@@ -96,12 +96,11 @@ const config = {
           //   position: 'left',
           //   label: 'Docs',
           // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            href: 'https://clusterchirp.mssm.edu/',
+            label: 'Return to ClusterChirp',
+            position: 'right',
+          },
         ],
       },
       footer: {

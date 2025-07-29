@@ -17,12 +17,18 @@ Instead of manually adjusting settings, you can ask the AI to:
 - Apply complex filters to the heatmap
 - Reorder rows or columns based on criteria you specify
 
+
+---
+
 ## How to Use
 
 1. Locate the **Chat With AI** box in the interface.
 2. Type your command in natural language describing how you want to modify the heatmap.
 3. Press Enter or click submit.
 4. The heatmap will update based on your request.
+
+
+---
 
 ## Types of Commands
 - **Filtering** ("Select the top \_\_\_\_\_ genes/rows/columns", or "Show only caucasian patients")
@@ -33,6 +39,8 @@ Instead of manually adjusting settings, you can ask the AI to:
 ![Chat with AI webp](/img/cluster-chat-sort.webp)
 
 
+---
+
 ## Examples of Commands
 
 - "Show the top 10 genes with the lowest variance"
@@ -40,10 +48,14 @@ Instead of manually adjusting settings, you can ask the AI to:
 - "Show only females"
 - "Sort by survival"
 
+
+---
+
 ## Tips
 
 - Be specific with your requests to get better results.
 - If the output is unexpected, rephrase your command or try simpler requests.
+
 
 ---
 

@@ -1,8 +1,10 @@
 ---
 id: analyze-pathways
 title: Analyzing Pathways
+hide_title: true
 sidebar_position: 1
 ---
+# Analyzing Pathways
 
 ## Overview
 
