@@ -96,6 +96,11 @@ const config = {
           //   position: 'left',
           //   label: 'Docs',
           // },
+          {to: '/FAQ', label: 'FAQ', position: 'left'},
+          {to: '/basic-functions', label: 'Basic Functions', position: 'left'},
+          {to: '/tutorials/analyze-pathways', label: 'Analyzing Pathways', position: 'left'},
+          {to: '/tutorials/view-gene-network', label: 'Viewing the Correlation Network', position: 'left'},
+          {to: '/tutorials/chat-with-ai', label: 'Chat With AI', position: 'left'},
           {
             href: 'https://clusterchirp.mssm.edu/',
             label: 'Return to ClusterChirp',
