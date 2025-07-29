@@ -25,7 +25,7 @@ To get started, select the data axis you'd like to cluster: **rows (genes)** or 
 2. Gray dividers should appear, outlining cluster boundaries.
 ![cluster webp](/img/cluster-dendro-hover.webp)
 
-> Refer to the [basic functions](../basic-functions#how-to-cluster-cells) if you would like a more detailed explanation of clustering
+> Refer to the [basic functions](../tutorials/basic-functions#how-to-cluster-cells) if you would like a more detailed explanation of clustering
 
 ---
 

@@ -5,7 +5,7 @@ sidebar_position: 4
 ---
 
 <strong style={{ fontSize: '18px', color: 'crimson' }}>
-  If you haven't yet learned how to cluster axes, see [here](../basic-functions#how-to-cluster-cells).
+  If you haven't yet learned how to cluster axes, see [here](../tutorials/basic-functions#how-to-cluster-cells).
 </strong>
 
 ## Overview
