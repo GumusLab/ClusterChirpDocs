@@ -31,11 +31,13 @@ Instead of manually adjusting settings, you can ask the AI to:
 ---
 
 ## Types of Commands
-- **Filtering** ("Select the top \_\_\_\_\_ genes/rows/columns", or "Show only caucasian patients")
+- **Filtering/Selection** ("Select the top \_\_\_\_\_ genes/rows/columns", or "Show only caucasian patients")
 - **Sorting** (For more specific ways of ordering rows or columns, e.g. "sort by race")
 - **Clustering** (As an alternative to clustering through the sidebar)
+- **Normalization** (Applies a certain normalization across rows/columns.)
+- **Distance** (Changes the metric of distance)
 - **Search** (As an alternative to searching through the search bar)
-- **Opacity** (As a way to change the opacity more specifically)
+- **Visualization** (Another way to change the opacity; it can be used to change the opacity more specifically)
 ![Chat with AI webp](/img/cluster-chat-sort.webp)
 
 
