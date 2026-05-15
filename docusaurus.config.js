@@ -101,6 +101,7 @@ const config = {
           {to: '/tutorials/analyze-pathways', label: 'Analyzing Pathways', position: 'left'},
           {to: '/tutorials/view-correlation-network', label: 'Viewing the Correlation Network', position: 'left'},
           {to: '/tutorials/chat-with-ai', label: 'Chat With AI', position: 'left'},
+          {to: '/tutorials/docker', label: 'Running Clusterchirp Locally', position: 'left'},
           {
             href: 'https://clusterchirp.mssm.edu/',
             label: 'Return to ClusterChirp',

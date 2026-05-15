@@ -34,12 +34,19 @@ Instead of manually adjusting settings, you can ask the AI to:
 - **Filtering/Selection** ("Select the top \_\_\_\_\_ genes/rows/columns", or "Show only caucasian patients")
 - **Sorting** (For more specific ways of ordering rows or columns, e.g. "sort by race")
 - **Clustering** (As an alternative to clustering through the sidebar)
-- **Normalization** (Applies a certain normalization across rows/columns.)
-- **Distance** (Changes the metric of distance)
+- **Z-Score Normalization** (Applies a certain normalization across rows/columns.)
+- **Distance and Linkage** (Changes the metric of distance and linkage method:
+    - Supported distance metrics are Pearson, Euclidean, Manhattan, and Cosine. Supported linkage methods are average, complete, and single.)
 - **Search** (As an alternative to searching through the search bar)
 - **Visualization** (Another way to change the opacity; it can be used to change the opacity more specifically)
-![Chat with AI webp](/img/cluster-chat-sort.webp)
 
+
+
+**Help function and distance metric changing:**
+![Chat with AI gif](\img\chat-with-ai-and-distance-metric.webp)
+
+**Finding a gene:**
+![Chat with AI webp](\img\cluster-chat-find-gene.webp)
 
 ---
 

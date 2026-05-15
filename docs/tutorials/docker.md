@@ -1,288 +1,80 @@
 ---
 id: docker
-title: Running Clusterchirp with Docker
+title: Running ClusterChirp Locally
 sidebar_position: 6
 ---
 
-# Running Clusterchirp with Docker
+# Running ClusterChirp Locally: Quick Start with Docker
 
-This guide explains how to run Clusterchirp locally using Docker, including chatbot setup using your own API keys.
-
----
-
-# What is Docker?
-
-Docker lets you run applications inside isolated environments called containers.  
-Instead of manually installing every dependency, you download a prebuilt image and run it with a single command.
-
----
-
-# Prerequisites
-
-Before starting, make sure you have:
-
-- Docker Desktop installed
-- Docker currently running
-- An internet connection to download the image
-
-You can verify Docker is installed correctly by running:
+The easiest way to run ClusterChirp locally is with Docker. No setup required.
 
 ```bash
-docker --version
+docker pull ghcr.io/gumuslab/clusterchirp:latest
+docker run -p 8080:80 ghcr.io/gumuslab/clusterchirp:latest
 ```
 
-You should see output similar to:
+Then open [http://localhost:8080](http://localhost:8080) in your browser.
+
+## Enable AI Chat (Optional)
+
+The built-in AI chatbot lets you interact with your heatmap using natural language commands (e.g., "show top 20 most variant genes", "cluster rows", "sort by variance"). It requires an OpenAI API key.
 
 ```bash
-Docker version 28.x.x
+docker run -p 8080:80 -e OPENAI_API_KEY=sk-your-key ghcr.io/gumuslab/clusterchirp:latest
 ```
 
----
+You can get an API key at [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys).
 
-# Pull the Clusterchirp Docker Image
+All other features (heatmap visualization, clustering, correlation networks, pathway analysis) work without an API key.
 
-Download the latest Clusterchirp image from Docker Hub:
+# Features
+
+- **Interactive Heatmap** — Upload CSV, TSV, or XLSX files and visualize with real-time clustering
+- **AI Chatbot** — Natural language commands to filter, sort, cluster, and explore your data
+- **Correlation Networks** — Visualize gene correlation networks in 2D and 3D
+- **Pathway Analysis** — Enrichment analysis with KEGG, Reactome, WikiPathway, and more
+- **Example Datasets** — Preloaded proteomics, genomics, and immunogenomics datasets to explore
+
+# Development Setup
+
+## Prerequisites
+
+- Node.js >= 18
+- Python 3.11+
+- Backend repo: [GumusLab/HeatmapBackend](https://github.com/GumusLab/HeatmapBackend)
+
+## Frontend
 
 ```bash
-docker pull YOUR_DOCKER_IMAGE
+npm install
+npm start
 ```
 
-Example:
+Runs on [http://localhost:3000](http://localhost:3000).
 
-```bash
-docker pull username/clusterchirp:latest
-```
+## Backend
 
-This downloads the prebuilt Clusterchirp environment to your computer.
+See the [HeatmapBackend](https://github.com/GumusLab/HeatmapBackend) repo for backend setup instructions.
 
----
+# Architecture
 
-# API Keys for Chatbot Features
-
-Clusterchirp’s chatbot functionality requires your own API keys.
-
-The application does **not** provide keys automatically.
-
-## Create a `.env` File
-
-Create a file named `.env` in the same folder where you plan to run Docker.
-
-Example:
-
-```env
-OPENAI_API_KEY=your_openai_api_key_here
-```
-
-If multiple providers are supported:
-
-```env
-OPENAI_API_KEY=your_openai_api_key_here
-ANTHROPIC_API_KEY=your_anthropic_api_key_here
-GOOGLE_API_KEY=your_google_api_key_here
-```
-
-Replace the placeholder values with your actual API keys.
-
----
-
-# Important Security Note
-
-Never:
-
-- Upload your `.env` file publicly
-- Commit API keys to GitHub
-- Share your API keys with others
-
-Your `.env` file should remain local to your machine.
-
----
-
-# Running Clusterchirp
-
-Run the Docker container:
-
-```bash
-docker run --env-file .env -p 8501:8501 YOUR_DOCKER_IMAGE
-```
-
-Example:
-
-```bash
-docker run --env-file .env -p 8501:8501 username/clusterchirp:latest
-```
-
-## What the Command Means
-
-| Part | Meaning |
+| Component | Technology |
 |---|---|
-| `docker run` | Starts a container |
-| `--env-file .env` | Loads API keys from `.env` |
-| `-p 8501:8501` | Connects the app to your browser |
-| `YOUR_DOCKER_IMAGE` | The Clusterchirp Docker image |
+| Frontend | React, TypeScript, deck.gl, MUI |
+| Backend | Django, Django REST Framework |
+| Clustering | scipy, scikit-learn, numba |
+| AI Chat | OpenAI GPT-4o-mini |
+| Docker | nginx + gunicorn + supervisord |
 
----
+# Citation
 
-# Open the Application
+If you use ClusterChirp in your research, please cite:
 
-Once the container starts, open:
+> Rawal, O., et al. "ClusterChirp: A GPU-accelerated Web Server for Natural Language-Guided Interactive Visualization and Analysis of Large Omics Data." arXiv preprint (2026).
+> [https://doi.org/10.48550/arXiv.2602.08280](https://doi.org/10.48550/arXiv.2602.08280)
 
-```text
-http://localhost:8501
-```
+## License
 
-in your browser.
+This project is developed by the [Gumus Lab](https://github.com/GumusLab) at the Icahn School of Medicine at Mount Sinai.
 
----
-
-# Running Without Chatbot Features
-
-You can still run Clusterchirp without API keys:
-
-```bash
-docker run -p 8501:8501 YOUR_DOCKER_IMAGE
-```
-
-Some AI/chatbot functionality may be disabled.
-
----
-
-# Stopping the Container
-
-List currently running containers:
-
-```bash
-docker ps
-```
-
-Stop a container:
-
-```bash
-docker stop CONTAINER_ID
-```
-
-Example:
-
-```bash
-docker stop a1b2c3d4e5f6
-```
-
----
-
-# Updating Clusterchirp
-
-Pull the newest version of the image:
-
-```bash
-docker pull YOUR_DOCKER_IMAGE
-```
-
-Then rerun the container.
-
----
-
-# Common Issues
-
-## Docker Is Not Running
-
-Make sure Docker Desktop is open and running.
-
----
-
-## Port Already in Use
-
-If port `8501` is already occupied:
-
-```bash
-docker run --env-file .env -p 8502:8501 YOUR_DOCKER_IMAGE
-```
-
-Then open:
-
-```text
-http://localhost:8502
-```
-
----
-
-## Invalid API Key
-
-Check that:
-
-- Your API key is correct
-- The `.env` file exists
-- Variable names match exactly
-- You restarted the container after editing `.env`
-
----
-
-## Container Immediately Stops
-
-Check container logs:
-
-```bash
-docker logs CONTAINER_ID
-```
-
----
-
-## Cannot Connect to Docker Daemon
-
-Usually means Docker Desktop is not running.
-
-Start Docker Desktop and try again.
-
----
-
-# Useful Docker Commands
-
-## View Running Containers
-
-```bash
-docker ps
-```
-
-## View All Containers
-
-```bash
-docker ps -a
-```
-
-## Remove a Container
-
-```bash
-docker rm CONTAINER_ID
-```
-
-## Remove an Image
-
-```bash
-docker rmi YOUR_DOCKER_IMAGE
-```
-
----
-
-# Example Full Workflow
-
-```bash
-# Pull image
-docker pull username/clusterchirp:latest
-
-# Create .env file
-touch .env
-
-# Run Clusterchirp
-docker run --env-file .env -p 8501:8501 username/clusterchirp:latest
-
-# Open in browser
-http://localhost:8501
-```
-
----
-
-# Notes
-
-- Docker containers are isolated from your main system.
-- Your API keys stay local if stored in `.env`.
-- Updating Clusterchirp usually only requires pulling the newest image.
-- Restart the container whenever you change environment variables.
-- The first startup may take slightly longer while Docker initializes the container.
+ClusterChirp is freely available for all users. No registration required.

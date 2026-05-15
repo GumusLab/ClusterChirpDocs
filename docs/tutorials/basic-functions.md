@@ -90,5 +90,5 @@ This controls how close the genes have to be to form a cluster.
 ## Examples
 Examples are sample datasets that can demonstrate the versatility of ClusterChirp. Click on each example to view the heatmap for different biological omics.
 
-![photo of examples](/img/photo-of-examples.png)
+![photo of examples](/img/new-example-photo.png)
 
